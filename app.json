@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "testeexp",
+    "slug": "testeexp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    
+    "userInterfaceStyle": "automatic",
+    "scheme": "testeexp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "google-servises.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "plugins": [
+      "./node_modules/expo-sample-pedometer/expo-sample-pedometer-plugin.js",
+      "expo-router",
+      "@react-native-firebase/app",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]    
+  }
+}

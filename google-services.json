@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1204619621",
+    "project_id": "app-de-guia-estacio",
+    "storage_bucket": "app-de-guia-estacio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1204619621:android:a5e4a50b85b2434d30398c",
+        "android_client_info": {
+          "package_name": "com.equipe.GuiaEstacio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRv8e1FwNGiCU4qM5MsvqLP4rmVTFAJDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
